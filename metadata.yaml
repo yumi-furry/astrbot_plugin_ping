@@ -1,0 +1,25 @@
+name: astrbot_plugin_ping
+display_name: 网络 Ping 测速
+short_desc: 支持系统 ICMP / 纯 Python ICMP / TCP 降级，内置 Docker 环境安装指令。
+desc: |
+  为 AstrBot 提供网络 Ping 测速能力。
+  - 三级探测兜底：系统 ICMP Ping → 纯 Python ICMP → TCP 端口探测。
+  - 内置 `/ping setup` 指令，可自动在 Docker 等缺少 ping 命令的环境中安装 iputils-ping。
+  - 支持自定义 Ping 次数与超时时间。
+version: 1.1.0
+author: YourName
+repo: https://github.com/YourName/astrbot_plugin_ping
+astrbot_version: ">=4.0.0"
+support_platforms:
+  - aiocqhttp
+  - telegram
+  - qq_official
+  - lark
+  - dingtalk
+  - discord
+  - slack
+  - kook
+  - wecom
+  - weixin_official_account
+  - satori
+  - webchat

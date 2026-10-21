@@ -1,0 +1,19 @@
+{
+  "ping_count": {
+    "description": "Ping 次数",
+    "type": "int",
+    "default": 4,
+    "slider": { "min": 1, "max": 20, "step": 1 }
+  },
+  "ping_timeout": {
+    "description": "单次 Ping 超时（秒）",
+    "type": "int",
+    "default": 2,
+    "slider": { "min": 1, "max": 10, "step": 1 }
+  },
+  "allow_setup": {
+    "description": "是否允许 /ping setup 自动安装 iputils-ping",
+    "type": "bool",
+    "default": true
+  }
+}
