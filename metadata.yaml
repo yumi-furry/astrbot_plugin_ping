@@ -7,7 +7,7 @@ desc: |
   - 内置 `/ping setup` 指令，可自动在 Docker 等缺少 ping 命令的环境中安装 iputils-ping。
   - 支持自定义 Ping 次数与超时时间。
 version: 1.1.0
-author: YourName
+author: 一只炫彩玉米
 repo: https://github.com/YourName/astrbot_plugin_ping
 astrbot_version: ">=4.0.0"
 support_platforms:
